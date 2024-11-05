@@ -1,0 +1,293 @@
+/* Reset styles for cross-browser consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Main container styling */
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1d2b64, #f8cdda);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header section */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #f0f0f0;
+}
+
+/* Social media links */
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #ff6f61;
+}
+
+/* Navigation Bar */
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Developer image styling */
+#developer-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profile-jpg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.profile-jpg:hover {
+    transform: translateY(-10px) scale(1.1);
+}
+
+/* Sections styling */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+/* Heading styling */
+h2 {
+    font-size: 1.8em;
+    color: #0073e6;
+    margin-bottom: 15px;
+}
+
+/* Resume download button */
+#resume-download button {
+    background-color: #0073e6;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#resume-download button:hover {
+    background-color: #005bb5;
+    transform: scale(1.05);
+}
+
+/* Experience, Education, and Certifications styling */
+.job, .education-item, #certifications ul li {
+    margin-bottom: 15px;
+}
+
+.job h3, .education-item h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Projects styling */
+#projects ul li {
+    margin-bottom: 15px;
+}
+
+#projects ul li a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#projects ul li a:hover {
+    color: #005bb5;
+}
+
+/* Skills section styling */
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#skills ul li {
+    background-color: #f1f1f1;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #555;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#skills ul li:hover {
+    transform: translateY(-5px) scale(1.1);
+    background-color: #0073e6;
+    color: #fff;
+}
+
+/* Contact Section Styling */
+#contact {
+    max-width: 600px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Form Elements Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    background: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    background: #e65c50;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+footer p {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effects on images and buttons for subtle 3D animation */
+button, img, nav ul li a, #skills ul li, .profile-jpg {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover, img:hover, nav ul li a:hover, #skills ul li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .portfolio-container {
+        padding: 10px;
+    }
+
+    #contact {
+        margin: 20px 0;
+    }
+}
+
+nav ul li a:focus,
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+}
